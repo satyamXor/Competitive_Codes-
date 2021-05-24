@@ -24,7 +24,7 @@ vector<int> z_func(string s)
 			z[i]++;
 		}
 
-		if(i+z[i]-1>r)
+		if(i+z[i]>r)
 		{
 			l = i; 
 			r = i+z[i]-1; 
